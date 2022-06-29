@@ -1,0 +1,507 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700;800&display=swap');
+
+/*Nav & body*/
+body{
+    direction:rtl;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+}
+#logo{
+    height: 70px;
+    width: 85px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: white;
+}
+.mainav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top:0;
+    background-color: white;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    color: black;
+    width: 130px;
+    height: 30px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+}
+nav ul li a:hover{
+    display: block;
+    color: #E45A1F;
+}
+nav ul li:hover ul{
+    display: block;
+    width: 180px;
+    background-color: white;
+    text-align: center;
+}
+.breadnav{
+    margin-top: 120px;
+}
+nav ol li{
+    display: inline-block;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    color: black;
+}
+nav ol li::after{
+    content: ">";
+}
+nav ol li:last-child::after{
+    content: "";
+}
+
+/*HomePage*/
+.sitename { 
+    font-family: 'Assistant', sans-serif;    
+    font-weight: 600;
+    font-size: 100pt;
+    color: #FFCB80;
+    position: relative;
+    bottom: 800px;
+    right: 30px;
+    z-index: 1;
+}
+
+#headtext1{
+    position: relative;
+    font-size: 18pt;
+    font-family: 'Assistant', sans-serif;
+    font-weight:400;
+    bottom: 900px;
+    color: white;
+    z-index: 1;
+    padding-right: 30px;
+}
+
+.tit2home{
+    font-family: 'Assistant', sans-serif;
+    font-weight:700;
+    font-size: 45pt;
+    color: #E45A1F;
+    position: relative;
+    bottom: 150px;
+    padding-right: 30px;
+
+}
+
+#text2{
+    position: relative;
+    bottom: 190px;
+    padding-right: 33px;
+
+}
+
+.hoimg {
+    height: 500px;
+    width: 500px; 
+    position: relative;
+    bottom: 100px;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+.yellowcock {
+    display: inline-block;
+    position: relative;
+    padding-left: 200px;
+    padding-right: 80px;
+    bottom: 140px;
+    font-weight:700;
+    font-size: 20pt;
+
+}
+
+.aperolcock {
+    display: inline-block;
+    position: relative;
+    padding-left: 205px;
+    padding-right: 10px;
+    bottom: 140px;
+    font-weight:700;
+    font-size: 20pt;
+}
+
+.macarenacock{
+    display: inline-block;
+    position: relative;
+    padding-left: 220px;
+    padding-right: 70px;
+    bottom: 140px;
+    font-weight:700;
+    font-size: 20pt;
+}
+
+#footerpic {
+    width:100%;
+    height: auto;
+}
+
+
+
+
+
+footer {
+    direction:rtl;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    position: relative;
+    width:100%;
+    bottom: 0;
+    left: 0;
+    clear: both;
+}
+
+
+
+table a:link {
+    text-decoration: none;
+    color: white;
+}
+
+table a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+table a:hover {
+    text-decoration: none;
+    color: #E45A1F;
+}
+
+#foottab {
+    z-index: 1;
+    width: 900px;
+    height: 150px;
+    position: relative;
+    top: 250px;
+    color: white;
+    text-align: right;
+    padding-right: 50px;
+}
+th {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+footer {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+
+
+
+
+
+/*cocktailsRe*/
+.button {
+    background-color:white;
+    border: solid black 1pt;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+    background-color:rgb(23, 23, 23);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#headerpic{
+    width:100%;
+    height: auto;
+}
+h1{
+    font-family: 'Assistant', sans-serif;    
+    font-weight: 800;
+    font-size: 50pt;
+    color: #FFCB80;
+    position: relative;
+    bottom: 580px;
+    right: 30px;
+    z-index: 1;
+}
+#headtext{
+    position: relative;
+    font-size: 18pt;
+    font-family: 'Assistant', sans-serif;
+    font-weight:400;
+    bottom: 620px;
+    right: 30px;
+    color: white;
+    z-index: 1;
+}
+
+
+h2{
+    font-family: 'Assistant', sans-serif;
+    font-weight:700;
+    font-size: 30pt;
+    color: #E45A1F;
+    position: relative;
+    bottom: 200px;
+    padding-right: 30px;
+
+}
+section{
+    position: relative;
+    bottom: 250px;
+}
+#toptx{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    display: inline-block; 
+    position: relative;
+    bottom: 250px;
+    padding-right: 30px;
+
+}
+
+section img{
+    height: 300px;
+    width: 300px;  
+}
+h3{
+    font-family: 'Assistant', sans-serif;
+    font-weight:700;
+    font-size: 20pt;
+    position: relative;
+    top: 15px;
+}
+.cocktail{
+    float: right;
+    padding: 30px;
+}
+#text{ 
+    padding-top: 80px;
+    width: 860px;
+
+}
+#Clearcockt{
+    clear: right;
+}
+
+
+/*Aperol*/
+#aperolh1{
+    position: absolute;
+    top: 130px;
+    width:100%;
+    height: auto;
+    margin-right: 10px;
+}
+#aperolh2{
+    position: absolute;
+    top: 130px;
+    width:100%;
+    padding-top: 90px;
+    margin-right: 10px;
+}
+
+
+.apimg{
+    height: 500px;
+    width: 500px; 
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+#ingr{
+    position: relative;
+    top: 150px;
+    margin-right: 20px;
+}
+#flatlay{
+    float: left;
+    height: 550px;
+    width: 550px;
+    position: relative;
+    left: 500px;
+}
+fieldset{
+	border-style: none;
+    padding: 0;
+    margin-right: 20px;
+}
+h4{
+    font-weight: 400;
+    text-decoration: underline;
+}
+.sidetxt{
+    display: inline;
+    color: #E45A1F;
+    font-size: 12pt;
+}
+#box {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+/*AboutUs*/
+.aboutUs {
+    position: relative;
+    bottom: 10px
+
+}
+.aboutUsPar {
+    position: relative;
+    bottom: 220px;
+    right: 30px;
+}
+
+
+#logohit {
+    height: 450px;
+    width: 530px;
+    position: relative;
+    right: 660px;
+
+}
+
+
+
+
+/*contact us*/
+#contH{
+    color: white;
+}
+form{
+    position: relative;
+    bottom: 250px;
+    padding-right: 10px;
+}
+
+
+/*site's map*/
+#mapt{
+    position: relative;
+    top:10px;
+}
+#map section{
+    position: relative;
+    top: 5px;
+    padding-right: 30px;
+}
+#map section ul{
+    list-style-type: disc;
+    padding-right: 40px;
+    padding-bottom: 5px;
+}
+
+
+/*image gallery*/  
+.container {
+    position: relative;
+    bottom: 200px;
+    box-sizing: border-box;
+}
+ 
+.picSlide {
+    display: none;
+    position: relative;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.prev {
+  position: absolute;
+  right: 840px;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: #E45A1F;
+    color: white;
+}
+.numbertext {
+    color: #E45A1F;
+    width: 48.2%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    direction:ltr;
+    padding: 8px 12px;
+    position: absolute;
+}
+.caption-container {
+    color: #E45A1F;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 635px;
+}
+.row{
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 16.66%;
+}
+.miniPic {
+    opacity: 0.6;
+    width:100%
+}
+.active, .miniPic:hover {
+    opacity: 1;
+}

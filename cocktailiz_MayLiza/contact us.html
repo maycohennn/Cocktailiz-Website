@@ -1,0 +1,163 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>Cocktailiz - צור קשר</title>
+    <link rel="icon" href="images/logo.png">
+    <meta name="description" content="Contact us for more information on cocktails" />
+    <meta name="keywords" content="contact, name, phone, cocktailrecipe, aprolshpritz,DIY" />
+    <meta name="author" content="Liza Polyakov Shalmor and May Cohen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+</head>
+<body>
+<header>
+    <nav aria-label="main navigation">
+        <ul class="mainav">
+            <li><a href="index.html"><img src="images/logo.png" id="logo" alt="home page"></a></li>
+            <li>
+            <a href="#">מתכוני קוקטיילים</a>
+                <ul> 
+                    <li><a href="cocktailsRe.html">רמת מתחילים</a></li>
+                    <li><a href="#">רמת מתקדמים</a></li>
+                    <li><a href="#">ללא אלכוהול</a></li>
+                    <li><a href="#">קלאסיים</a></li>
+                </ul>
+            </li>
+            <li><a href="#">לפני שמתחילים</a></li>
+            <li><a href="#">סוגי אלכהול</a></li>
+            <li>
+            <a href="#">ערב קוקטיילים</a>
+            <ul> 
+                <li><a href="#">הדייט המושלם</a></li>
+                <li><a href="#">ערב בנים</a></li>
+                <li><a href="#">ערב בנות</a></li>
+                <li><a href="#">משתה משפחתי</a></li>
+            </ul>
+            </li>
+            <li><a href="about.html">אודות</a></li>
+            <li><a href="contact us.html">צור קשר</a></li>
+            <li><a href="site map.html">מפת האתר</a></li>
+        </ul>
+    </nav>
+<nav>
+    <ol class="breadnav">
+        <li><a href="index.html">דף הבית</a></li>
+        <li>צור קשר</li>
+    </ol>
+</nav>
+</header>
+
+<header>
+    <img src="images/contact.png" alt="making cocktails" id="headerpic">
+
+<h1 id="contH">צור איתנו קשר!</h1>
+<p id="headtext">
+    רוצים מתכון לקוקטייל מסויים? מצאתם בעיה באתר? <br/>
+    נשמח שתכתבו לנו!
+</p>
+</header>
+
+<form>
+<h3>טופס ליצירת קשר</h3>
+
+<label for="fullName">
+    שם מלא * <br/>
+    <input type="text" id="fullName" required/>
+</label>
+<br/>
+
+מין * <br/> 
+<label for="male">גבר</label>
+<input type="radio" name="gender" id="male" value="male" checked>
+<label for="female">אישה</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="other">אחר</label>
+<input type="radio" name="gender" id="other" value="other">
+<br/>
+
+<label for="phoneNum">
+    טלפון נייד * <br/>
+    <input type="text" id="phoneNum" required/>
+</label>
+<br/>
+
+<label for="mail">
+    דואר אלקטרוני * <br/>
+    <input type="text" id="mail" required/>
+</label>
+<br/>
+
+יש לכם עדפה לאמצעי תקשורת מסוים? סמנו זאת כאן <br/>
+<label for="msil">מייל</label>
+<input type="radio" name="contactpref" id="mail" value="mail">
+<label for="phone">טלפון</label>
+<input type="radio" name="contactpref" id="phone" value="phone">
+<br/><br/>
+
+נושא הפנייה * <br/>
+    <select id="myselect" required>
+        <option value="" disabled selected hidden>בחרו את נושא הפנייה</option>
+        <option value="1">בקשה לתוכן ספציפי</option>
+        <option value="2">יש לי שאלה</option>
+        <option value="3">נתקלתי בתקלה</option>
+        <option value="4">אחר</option>
+    </select>
+    <br/>
+
+    הודעה: <br/>
+    <textarea name="usertext" rows="10" cols="30">
+    </textarea>
+    <br><br>
+    
+    <label for="send">
+        <input type="submit" id="send" value="שלח טופס"/>
+    </label>
+</form>
+  
+<footer>
+    <table id="foottab">
+        <tr>
+            <th>סוג האירוע</th>
+            <th><a href="#">מתכוני קוקטיילים</a></th>
+            <th><a href="#">אנחנו</a></th>
+            <th><a href="#">מידע שחשוב לדעת</a></th>
+        </tr>
+
+        <tr>
+            <td><a href="#">הדייט המושלם</a></td>
+            <td><a href="cocktailsRe.html">רמת מתחילים</a></td>
+            <td><a href="#">תנאי שימוש</a></td>
+            <td><a href="#">לפני שמתחילים</a></td>
+        </tr>
+
+        <tr>
+            <td><a href="#">ערב בנים</a></td>
+            <td><a href="#">רמת מתקדמים</a></td>
+            <td><a href="about.html">אודות</a></td>
+            <td><a href="#">סוגי אלכוהול</a></td>
+        </tr>
+
+        <tr>
+            <td><a href="#">ערב בנות</a></td>
+            <td><a href="#">ללא אלכוהול</a></td>
+            <td><a href="contact us.html">צור קשר</a></td>
+        </tr>
+
+        <tr>
+            <td><a href="#">משתה משפחתי</a></td>
+            <td><a href="#">קלאסיים</a></td>
+            <td><a href="site map.html">מפת האתר</a></td>
+        </tr>
+    </table>
+    <img src="images/footer.png" alt="footer" id="footerpic">
+
+</footer>
+</body>
+</html>
